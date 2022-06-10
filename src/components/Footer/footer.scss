@@ -1,0 +1,122 @@
+@import "../../global.scss";
+
+
+
+
+.footer {
+
+    background: $mainColor;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+    min-height: 50vh;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+
+
+    .logoo {
+
+        text-decoration: none;
+        font-size: 3rem;
+        color: #6b6b97;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        display: inline-block;
+        transition: all .2s ease;
+
+
+        &:hover {
+            font-weight: 600;
+            transition: all .2s ease;
+            // width: 100%;
+
+        }
+
+
+    }
+
+    .links {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0 auto 3rem;
+        width: 80%;
+        height: 100%;
+        // background-color: lightcoral;
+
+
+        a {
+            text-decoration: none;
+            color: #6b6b97;
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            // width: 100%;
+            transition: all .2s ease;
+
+
+            &:hover {
+                // font-weight: 600;
+                text-decoration: underline;
+                color: #6b6b97;
+
+                
+
+            }
+        }
+    }
+
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 4rem;
+
+        a {
+            text-decoration: none;
+            background: $background;
+            color: white;
+            padding: 10px;
+            font-size: 30px;
+            border-radius: .7rem;
+            display: flex;
+            border: 1px solid transparent;
+            transition: all .5s ease;
+
+
+            &:hover {
+                color: $background;
+                background: white;
+                // transition: all .2s ease;
+               
+
+
+            }
+        }
+    }
+
+    
+
+    .copyright {
+
+
+
+        small{
+            color: #6b6b97;
+
+            font-size: 16px;
+            bottom: 1px;
+            &:hover {
+                font-weight: 600;
+                color: #6b6b97;
+
+                cursor: pointer;
+
+            }
+        }
+    }
+
+}

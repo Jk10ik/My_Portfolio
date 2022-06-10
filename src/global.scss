@@ -1,0 +1,30 @@
+$mainColor:#15023a;
+$primaryColor:#59b256;
+$primaryColor:#59b256;
+                // font-family: ;
+$background: #2c2c6c;
+$mainFont:"Nunito";
+$primaryFont:'Nunito', sans-serif;
+
+
+
+
+
+$width: 768px;
+$width1: 1044px;
+
+@mixin mobile {
+    @media(max-width: #{$width}){
+        @content
+    }
+}
+
+
+@mixin mobile1 {
+    @media(max-width: #{$width1}){
+        @content
+    }
+}
+
+
+ 
