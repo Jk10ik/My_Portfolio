@@ -9,6 +9,11 @@
     text-align: center;
     background-size: contain;
 
+    @include mobile2 {
+        width: 90%;
+        
+    }
+
 
 
 
@@ -24,6 +29,11 @@
             letter-spacing: 0.5px;
 
         }
+        @include mobile2 {
+             
+            font-size: 20px;
+        }
+    
 
 
     }
@@ -38,6 +48,10 @@
             font-size: 40px;
             letter-spacing: 0.5px;
 
+        }
+        @include mobile2 {
+             
+            font-size: 35px;
         }
     }
 
@@ -57,6 +71,13 @@
         @include mobile1 {
             display: block;
 
+        }
+       
+        @include mobile2 {
+             
+            width: 100%;
+            margin-top: 35px;
+        
         }
 
         .frontend-dev {

@@ -21,6 +21,9 @@
         height: auto;
         margin-top: 2rem;
     }
+    @include mobile2 {
+        
+    }
 
     h5 {
 
@@ -44,7 +47,10 @@
             overflow: hidden;
             margin: 20px 10px;
         }
-
+        @include mobile2 {
+            font-size: 20px;
+    margin: 9px 10px;
+        }
     }
 
 
@@ -63,7 +69,9 @@
             margin: 20px 10px;
         }
     }
-
+    @include mobile2 {
+        font-size: 35px;
+    }
     .ul {
         margin-top: 50px;
     }
@@ -106,7 +114,7 @@
             // overflow: hidden;
             // justify-content: center;
         }
-
+        
 
         li {
             margin-right: 15px;
@@ -134,7 +142,7 @@
 
         }
 
-
+        
         .item {
             width: 280px;
             height: 200px;
@@ -157,7 +165,9 @@
                 height: auto;
                 // height: 70%;
             }
-
+            @include mobile2 {
+        
+            }
 
             h3 {
                 position: absolute;

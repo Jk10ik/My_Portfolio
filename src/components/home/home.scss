@@ -48,7 +48,7 @@
 
 
                 display: none;
-            
+
 
             }
 
@@ -180,6 +180,21 @@
                 left: 50px;
                 bottom: 50px;
 
+                @include mobile {
+                   display: none;
+
+
+                }
+                @include mobile2 {
+                    // margin-top: 46px;
+                    border: 3px solid #59b256;
+                    color: white;
+                    background: #59b256;
+
+
+                }
+
+
                 &:hover {
                     background-color: $primaryColor;
                     border: 3px solid $primaryColor;
@@ -198,8 +213,20 @@
                 bottom: 50px;
                 font-weight: 600;
 
+                @include mobile {
+                    display: none;
 
 
+
+                }
+                @include mobile2 {
+                    background-color: #15023a;
+                    border: 3px solid #15023a;
+                    color: white;
+
+
+
+                }
 
 
 
@@ -226,10 +253,15 @@
                 // font-family: 'Nunito', sans-serif;
                 font-weight: 400;
 
+
+
                 @include mobile {
                     font-size: 50px;
                 }
 
+                @include mobile2 {
+                    font-size: 40px;
+                }
 
             }
 
@@ -239,9 +271,15 @@
                 letter-spacing: 1px;
                 font-weight: 600;
 
+
+
                 @include mobile {
                     font-size: 25px;
                     margin-top: 21px;
+                }
+
+                @include mobile2 {
+                    font-size: 20px;
                 }
             }
 
@@ -249,6 +287,10 @@
             .title {
                 height: 50px;
                 overflow: hidden;
+
+
+
+
 
                 @include mobile {
                     height: 50px;
@@ -260,7 +302,9 @@
                 }
 
 
-
+                @include mobile2 {
+                    font-size: 40px;
+                }
 
                 .t-wrapper {
                     // height: 100%;
@@ -297,6 +341,11 @@
 
                             align-items: center;
                         }
+
+                        @include mobile2 {
+                            font-size: 25px;
+                        }
+
                     }
 
                     @keyframes move {
@@ -335,6 +384,8 @@
                 font-family: $primaryFont;
                 // font-weight: 300;
 
+
+
                 @include mobile {
                     width: 70%;
                     margin-top: 0;
@@ -346,6 +397,12 @@
 
                 }
 
+                @include mobile2 {
+                    padding-bottom: 28px;
+                    width: 90%;
+                    font-size: 20px;
+
+                }
 
 
             }
