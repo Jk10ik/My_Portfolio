@@ -66,13 +66,7 @@
 
             }
 
-            @include mobile1 {
-                left: 214px;
-                top: 49px;
-                width: 45%;
-                height: 70%;
 
-            }
         }
 
         .a-card {
@@ -98,6 +92,11 @@
 
                 margin-bottom: 50px;
 
+
+            }
+
+            @include mobile2 {
+                left: 0px;
 
             }
 
@@ -142,6 +141,13 @@
     .a-right {
         flex: 1;
 
+        @include mobile1 {
+            margin: -30px 81px;
+            text-align: center;
+            width: 85%;
+
+        }
+
         @include mobile {
             width: 80%;
             margin: 50px 70px;
@@ -150,284 +156,313 @@
 
         }
 
+
+
+        @include mobile2 {
+            margin: -30px 51px;
+            text-align: center;
+            width: 85%;
+        }
+
+        @include mobile3 {
+
+            margin: -30px 15px;
+            text-align: center;
+            width: 93%;
+        }
+    }
+}
+
+
+.a-title {
+    color: $primaryColor;
+    font-size: 15px;
+    font-family: $primaryFont;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+
+    @include mobile {
+        font-size: 24px;
+
+
+    }
+
+    @include mobile1 {
+        font-size: 24px;
+
+
+    }
+
+    @include mobile2 {
+        font-size: 20px;
+
+
+    }
+}
+
+.b-title {
+    // font-weight: 400;
+    font-size: 40px;
+    font-family: $primaryFont;
+
+    @include mobile {
+        font-size: 40px;
+        letter-spacing: .1px;
+        margin-bottom: 20px;
+    }
+
+    @include mobile1 {
+        font-size: 40px;
+        letter-spacing: .1px;
+        margin-bottom: 20px;
+    }
+
+    @include mobile2 {
+        font-size: 35px;
+
+
+    }
+
+    @include mobile3 {
+        font-size: 28px;
+    }
+
+}
+
+.a-sub {
+    margin: 20px 0px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin-bottom: 10px;
+}
+
+.a-desc {
+    font-weight: 300;
+    width: 90%;
+    font-size: 17px;
+    font-family: $primaryFont;
+
+    @include mobile1 {
+        align-items: center;
+        font-size: 24px;
+        margin: 55px auto;
+        width: 100%;
+
+    }
+
+    @include mobile {
+        width: 85%;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 24px;
+
+    }
+
+
+
+    @include mobile2 {
+        width: 99%;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 20px;
+
+    }
+}
+
+.a-award {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mobile1 {
+        display: flex;
+
+    }
+
+    @include mobile {
+        display: block;
+
+    }
+
+
+    .a-award-img {
+        width: 134px;
+        height: 168px;
+        border-radius: 20px;
+
+        @include mobile1 {
+            width: 30%;
+            height: 201px;
+
+
+        }
+
+        @include mobile {
+            width: 60%;
+
+            height: auto;
+
+
+        }
+
+        @include mobile2 {
+            width: 80%;
+
+        }
+
+
+    }
+
+    .a-award-texts {
+        width: 75%;
+        margin-right: 10px;
+
+
+
+        
+        @include mobile {
+            width: 100%;
+            // height: auto;
+            margin: 0 auto;
+
+
+        }
+
         @include mobile1 {
             width: 80%;
-            margin: -30px 70px;
-            // margin: 0 auto;
-            text-align: center;
+            padding: 0 20px;
 
+        }
+
+        @include mobile2 {
+            width: 100%;
+            padding: 0px 0px;
         }
 
 
 
-        .a-title {
-            color: $primaryColor;
-            font-size: 15px;
-            font-family: $primaryFont;
-            letter-spacing: 1.5px;
+        .btn1 {
+            background-color: transparent;
+            border: 3px solid #211d57;
+            color: #211d57;
+            padding: 4px 6px;
             font-weight: 600;
+            // margin-left: 155px;  
+
+
+            @include mobile1 {
+                display: none;
+
+            }
 
             @include mobile {
-                font-size: 24px;
+                height: 52px;
 
-
-            }
-
-            @include mobile1 {
-                font-size: 24px;
-
+                font-size: 21px;
+                display: block;
+                margin: 0 auto;
+                width: 205px;
 
             }
+
 
             @include mobile2 {
-                font-size: 20px;
-
-
-            }
-        }
-
-        .b-title {
-            // font-weight: 400;
-            font-size: 40px;
-            font-family: $primaryFont;
-
-            @include mobile {
-                font-size: 40px;
-                letter-spacing: .1px;
-                margin-bottom: 20px;
-            }
-
-            @include mobile1 {
-                font-size: 40px;
-                letter-spacing: .1px;
-                margin-bottom: 20px;
-            }
-
-            @include mobile2 {
-                font-size: 35px;
-
-
-            }
-        }
-
-        .a-sub {
-            margin: 20px 0px;
-            font-weight: bold;
-            color: $primaryColor;
-            margin-bottom: 10px;
-        }
-
-        .a-desc {
-            font-weight: 300;
-            width: 90%;
-            font-size: 17px;
-            font-family: $primaryFont;
-
-
-            @include mobile {
-                width: 85%;
-                align-items: center;
+                display: block;
                 margin: 0 auto;
-                font-size: 24px;
-
-            }
-
-            @include mobile1 {
-                width: 85%;
+                width: 150px;
+                background-color: #211d57;
+                border: 3px solid #211d57;
+                color: white;
                 align-items: center;
-                margin: 0 auto;
-                font-size: 24px;
-
-            }
-
-            @include mobile2 {
-                width: 99%;
-                align-items: center;
-                margin: 0 auto;
-                font-size: 20px;
-
-            }
-        }
-
-        .a-award {
-            margin-top: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            @include mobile1 {
-                display: flex;
+                padding: 7px 12px;
 
             }
 
             @include mobile {
                 display: block;
+                margin: 0 auto;
+                width: 150px;
+                background-color: #211d57;
+                border: 3px solid #211d57;
+                color: white;
+                align-items: center;
 
             }
 
-
-            .a-award-img {
-                width: 134px;
-                height: 168px;
-                border-radius: 20px;
-
-                @include mobile1 {
-                    width: 30%;
-                    height: 201px;
-
-
-                }
-
-                @include mobile {
-                    width: 60%;
-
-                    height: auto;
-
-
-                }
-
-                @include mobile2 {
-                    width: 80%;
-
-                }
-
-
+            .redd {
+                margin-left: -4.5px;
+                color: rgb(230, 84, 84);
             }
 
-            .a-award-texts {
-                width: 75%;
-                margin-right: 10px;
-
-
-                .btn1 {
-                    background-color: transparent;
-                    border: 3px solid #211d57;
-                    color: #211d57;
-                    padding: 4px 6px;
-                    font-weight: 600;
-                    // margin-left: 155px;  
-
-
-                    @include mobile1 {
-                        display: none;
-
-                    }
-
-
-                    @include mobile2 {
-                        display: block;
-                        margin: 0 auto;
-                        width: 150px;
-                        background-color: #211d57;
-                        border: 3px solid #211d57;
-                        color: white;
-                        align-items: center;
-                        padding: 7px 12px;
-
-                    }
-
-                    @include mobile {
-                        display: block;
-                        margin: 0 auto;
-                        width: 150px;
-                        background-color: #211d57;
-                        border: 3px solid #211d57;
-                        color: white;
-                        align-items: center;
-
-                    }
-
-                    .redd {
-                        margin-left: -4.5px;
-                        color: rgb(230, 84, 84);
-                    }
-
-                    &:hover {
-                        background-color: #211d57;
-                        border: 3px solid #211d57;
-                        color: white; // text-decoration: underline;/
-
-                    }
-
-                }
-
-                @include mobile {
-                    width: 70%;
-                    // height: auto;
-                    margin: 0 auto;
-
-
-                }
-
-                @include mobile1 {
-                    width: 70%;
-                    padding: 0 20px;
-
-                }
-
-                @include mobile2 {
-                    width: 100%;
-                    padding: 0px 0px;
-                }
+            &:hover {
+                background-color: #211d57;
+                border: 3px solid #211d57;
+                color: white; // text-decoration: underline;/
 
             }
-
-            .a-award-title {
-                font-size: 20px;
-                font-family: $primaryFont;
-                letter-spacing: 1px;
-                font-weight: 600;
-
-                margin-bottom: 10px;
-
-
-                @include mobile1 {
-                    font-size: 30px;
-                    font-weight: 600;
-                    text-align: left;
-                    margin: 17px 20;
-
-                }
-
-                @include mobile {
-                    font-size: 25px;
-                    font-weight: 600;
-                    margin: 27px 0;
-                    text-align: center;
-                    // width: 80%;
-
-                }
-            }
-
-            .a-award-desc {
-                font-weight: 300;
-                font-size: 17px;
-                font-family: $primaryFont;
-
-
-                @include mobile1 {
-                    text-align: left;
-                    font-size: 20px;
-                    // background-color: lightcoral;
-
-                }
-
-                @include mobile {
-                    text-align: center;
-                    font-size: 25px;
-                }
-
-                @include mobile2 {
-                    font-size: 20px;
-
-                }
-
-
-            }
-
-
-
 
         }
+
     }
+
+    .a-award-title {
+        font-size: 20px;
+        font-family: $primaryFont;
+        letter-spacing: 1px;
+        font-weight: 600;
+
+        margin-bottom: 10px;
+
+
+        @include mobile1 {
+            font-size: 30px;
+            font-weight: 600;
+            text-align: left;
+            margin: 17px 20;
+
+        }
+
+        @include mobile {
+            font-size: 25px;
+            font-weight: 600;
+            margin: 27px 0;
+            text-align: center;
+            // width: 80%;
+
+        }
+
+        @include mobile3 {
+            font-size: 22px;
+        }
+    }
+
+    .a-award-desc {
+        font-weight: 300;
+        font-size: 17px;
+        font-family: $primaryFont;
+
+
+        @include mobile1 {
+            text-align: left;
+            font-size: 20px;
+            // background-color: lightcoral;
+
+        }
+
+        @include mobile {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        @include mobile2 {
+            font-size: 20px;
+
+        }
+
+
+    }
+
+
+
 }

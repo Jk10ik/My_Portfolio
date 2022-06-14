@@ -158,6 +158,11 @@
             flex-direction: column;
             justify-content: center;
 
+            @include mobile {
+                margin-bottom: 50px;
+
+            }
+
             .scroll {
                 // text-decoration: none;
 
@@ -181,18 +186,28 @@
                 bottom: 50px;
 
                 @include mobile {
-                   display: none;
-
-
-                }
-                @include mobile2 {
-                    // margin-top: 46px;
+                    display: block;
+                    bottom: 0%;
+                    margin-bottom: 0;
                     border: 3px solid #59b256;
                     color: white;
                     background: #59b256;
+                    left: 17%;
+
+
 
 
                 }
+
+                @include mobile2 {
+                    left: 14%;
+                }
+
+                @include mobile3 {
+                    display: none;
+
+                }
+
 
 
                 &:hover {
@@ -214,19 +229,26 @@
                 font-weight: 600;
 
                 @include mobile {
-                    display: none;
-
-
-
-                }
-                @include mobile2 {
+                    display: block;
+                    bottom: 0%;
+                    margin-bottom: 0;
                     background-color: #15023a;
                     border: 3px solid #15023a;
                     color: white;
+                    left: 67%;
 
 
 
                 }
+
+                @include mobile2 {
+                    left: 60%;
+                }
+
+                @include mobile3 {
+                    left: 30%;
+                }
+
 
 
 
@@ -260,7 +282,11 @@
                 }
 
                 @include mobile2 {
-                    font-size: 40px;
+                    font-size: 37px;
+                }
+
+                @include mobile3 {
+                    font-size: 35px;
                 }
 
             }
@@ -453,17 +479,20 @@
         a {
             position: absolute;
             bottom: 10px;
-            left: 40%;
+            left: 80%;
 
             @include mobile {
-                display: none;
+                display: block;
 
             }
 
             img {
                 width: 30px;
-                animation: arrowBlink 2s infinite;
+                transition: all 1s ease;
 
+              
+                &:hover {  
+                    animation: arrowBlink 1s infinite;}
 
             }
 

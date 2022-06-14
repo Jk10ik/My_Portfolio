@@ -48,10 +48,10 @@ export default function Contact() {
         <Form onSubmit={sendEmail}>
           <Form.Group className="mb-3 form1" controlId="formBasicEmail">
             <Form.Label >Name</Form.Label>
-            <Form.Control type="text" name='name' className='name form-control' placeholder="Enter Name" />
+            <Form.Control type="text" name='name' className='name form-control' placeholder="Enter Name" required />
 
             <Form.Label className='mt-3'>Email address</Form.Label>
-            <Form.Control type="email"  name='email' className='email form-control' placeholder="Enter email" />
+            <Form.Control type="email"  name='email' className='email form-control' placeholder="Enter email"  required/>
             <Form.Text className="text-muted subtitle">
               We'll never share your email with anyone else.
             </Form.Text>
@@ -60,7 +60,7 @@ export default function Contact() {
 
           <Form.Group className="mb-3   " controlId="exampleForm.ControlTextarea1">
             <Form.Label>Ask me anything</Form.Label>
-            <Form.Control as="textarea"  name='message' className='textarea form-control' placeholder='Type your Message...' rows={1} />
+            <Form.Control as="textarea"  name='message' className='textarea form-control' required placeholder='Type your Message...' rows={1} />
           </Form.Group>
 
           <Button className='btn' type="submit">

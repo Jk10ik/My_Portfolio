@@ -7,9 +7,20 @@
     border-radius: 10px;
     cursor: pointer;
 
-    @include mobile{
+    @include mobile {
         margin-right: 60px;
     }
+
+    @include mobile2 {
+        font-size: 12px;
+
+    }
+
+    @include mobile3 {
+        font-size: 11px;
+
+    }
+
 
     &.active {
         background-color: $mainColor;

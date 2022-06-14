@@ -53,7 +53,7 @@ export default function Intro() {
           <Button className='btn1' href='assets/Resume.png' download> Save Resume</Button>
         </div>
 
-        <a href="#about">
+        <a href="#footer">
           <img src="assets/down.png" alt="" />
         </a>
 

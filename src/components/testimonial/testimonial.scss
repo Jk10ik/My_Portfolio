@@ -35,8 +35,12 @@
         }
         @include mobile2 {
              
-            font-size: 20px;
+            font-size: 19px;
         
+        }
+        @include mobile3 {
+
+            font-size: 16px;
         }
     }
 
@@ -58,6 +62,11 @@
              
             font-size: 35px;
         
+        }
+
+        @include mobile2 {
+
+            font-size: 30px;
         }
         
     }
@@ -106,7 +115,13 @@
             }
             @include mobile2 {
              
-                width: 333px;
+                width: auto;
+                margin: 25px 0;
+                padding: 15px 0;
+            
+            } @include mobile3 {
+             
+                width: auto;
                 margin: 25px 0;
                 padding: 15px 0;
             
@@ -128,9 +143,16 @@
                 }
 
                 @include mobile2 {
-                    height: auto;
-                    width: 333px;
-                    margin: 2px;
+             
+                    width: auto;
+                    margin: 25px 0;
+                    padding: 15px 0;
+                
+                } @include mobile3 {
+                 
+                    width: auto;
+                    margin: 25px 0;
+                    padding: 15px 0;
                 
                 }
             }

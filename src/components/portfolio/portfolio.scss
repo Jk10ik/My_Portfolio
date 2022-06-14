@@ -21,9 +21,8 @@
         height: auto;
         margin-top: 2rem;
     }
-    @include mobile2 {
-        
-    }
+
+    @include mobile2 {}
 
     h5 {
 
@@ -41,15 +40,21 @@
 
         }
 
+
         @include mobile {
 
             font-size: 24px;
             overflow: hidden;
             margin: 20px 10px;
         }
+
         @include mobile2 {
             font-size: 20px;
-    margin: 9px 10px;
+            margin: 9px 10px;
+        }
+
+        @include mobile3 {
+            font-size: 16px;
         }
     }
 
@@ -68,12 +73,26 @@
             overflow: hidden;
             margin: 20px 10px;
         }
+
+        @include mobile2 {
+            font-size: 35px;
+        }
+
+        @include mobile3 {
+            font-size: 30px;
+        }
     }
-    @include mobile2 {
-        font-size: 35px;
-    }
+
+
+
     .ul {
         margin-top: 50px;
+
+        @include mobile3 {
+            margin-top: 30px;
+
+
+        }
     }
 
     // h1 {
@@ -108,17 +127,34 @@
             width: 90%;
             overflow: hidden;
             height: 33px;
-
             flex-wrap: wrap;
-            // // margin: 10px 10px;
-            // overflow: hidden;
-            // justify-content: center;
         }
-        
+
+        @include mobile2 {
+            width: 100%;
+            flex-wrap: nowrap;
+
+        }
+
+        @include mobile3 {
+            width: 100%;
+            flex-wrap: nowrap;
+            height: 25px;
+
+        }
+
+
 
         li {
             margin-right: 15px;
             padding: 5px;
+
+            @include mobile3 {
+                margin-right: 0px;
+                overflow: hidden;
+                padding: 5px;
+            }
+    
         }
     }
 
@@ -142,7 +178,18 @@
 
         }
 
-        
+        @include mobile2 {
+            width: 100%;
+
+
+        }
+
+        @include mobile3 {
+            width: 100%;
+
+        }
+
+
         .item {
             width: 280px;
             height: 200px;
@@ -165,9 +212,18 @@
                 height: auto;
                 // height: 70%;
             }
+
             @include mobile2 {
-        
+                width: 100%;
+
+
             }
+
+            @include mobile3 {
+                width: 100%;
+
+            }
+
 
             h3 {
                 position: absolute;
