@@ -162,16 +162,7 @@
                 margin-bottom: 50px;
 
             }
-
-            .scroll {
-                // text-decoration: none;
-
-
-                a {
-                    text-decoration: none;
-                    transform: translate(90deg);
-                }
-            }
+ 
 
             .btn {
 
@@ -181,7 +172,7 @@
                 font-weight: 600;
 
                 width: 120px;
-                // top:5;
+                 
                 left: 50px;
                 bottom: 50px;
 
@@ -223,7 +214,6 @@
                 border: 3px solid $mainColor;
                 color: $mainColor;
                 width: 150px;
-                // top:5;
                 left: 200px;
                 bottom: 50px;
                 font-weight: 600;
@@ -333,11 +323,9 @@
                 }
 
                 .t-wrapper {
-                    // height: 100%;
+             
                     animation: move 10s ease-in-out infinite alternate;
-                    // display: flex;
-                    // flex-direction: column;
-                    // justify-content:space-evenly;
+            
 
                     @include mobile {
                         animation: move 5s ease-in-out infinite alternate;
@@ -481,8 +469,22 @@
             bottom: 10px;
             left: 80%;
 
-            @include mobile {
+            @include mobile1 {
                 display: block;
+            left: 80%;
+
+
+            }
+            @include mobile {
+                left: 50%;
+
+            }
+            @include mobile2 {
+                left: 50%;
+
+            }
+            @include mobile3 {
+                left: 80%;
 
             }
 
