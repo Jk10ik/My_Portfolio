@@ -1,191 +1,167 @@
 export const featuredPortfolio = [
-    {
-      id: 1,
-      title: "Social Media App",
-      
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Relax Mobile App",
-      img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const webPortfolio = [
-    {
-      id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Web Relax App",
-      img:"https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Web Banking App",
-      img:  "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const mobilePortfolio = [
-    {
-      id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+  {
+    id: 1,
+    title: "Bazar App Home Page",
 
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-     
-    },
-    {
-      id: 4,
-      title: "Mobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Mobile Hero Design",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Design Social Media App",
-      img:
-      "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Design Rampa UI Design",
-      img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-      "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900"
-     ,
-    },
-    {
-      id: 4,
-      title: "Design Relax Mobile App",
-      img:
-      "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Design Keser Web Design",
-      img:
-      "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Design Banking App",
-      img:
-      "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-      "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-      "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-      "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-      "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-      "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-      "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-  ];
+    img: "assets/bazar (2).jpeg",
+  },
+  {
+    id: 2,
+    title: "Top New Products",
+    img: "assets/bazar (3).jpeg",
+  },
+  {
+    id: 3,
+    title: "Top Selling Products",
+    img: "assets/bazar (4).jpeg",
+  },
+  {
+    id: 4,
+    title: "All Products",
+    img: "assets/bazar (5).jpeg",
+  },
+  {
+    id: 5,
+    title: "Bazar app footer",
+    img: "assets/bazar (1).jpeg",
+  },
+  {
+    id: 6,
+    title: "Banking App",
+    img: "assets/bazar (2).jpeg",
+  },
+];
+
+export const webPortfolio = [
+  {
+    id: 1,
+    title: "Tempo Creative Agency",
+    img: "assets/tempo (2).jpeg",
+  },
+  {
+    id: 2,
+    title: "Tempo Home Page",
+    img: "assets/tempo (3).jpeg",
+  },
+  {
+    id: 3,
+    title: "Tempo Services",
+    img: "assets/tempo (4).jpeg",
+  },
+  {
+    id: 4,
+    title: "Tempo Team",
+    img: "assets/tempo (5).jpeg",
+  },
+  {
+    id: 5,
+    title: "Tempo Contact",
+    img: "assets/tempo (6).jpeg",
+  },
+  {
+    id: 6,
+    title: "Tempo Footer",
+    img: "assets/tempo (7).jpeg",
+  },
+];
+
+export const mobilePortfolio = [
+  {
+    id: 1,
+    title: "Online Hotel Website",
+    img: "assets/hotel (3).jpeg",
+  },
+  {
+    id: 2,
+    title: "Online Hotel Home PAge",
+
+    img: "assets/hotel (4).jpeg",
+  },
+  {
+    id: 3,
+    title: "Why Us ?",
+    img: "assets/hotel (6).jpeg",
+  },
+  {
+    id: 4,
+    title: "Our best Rooms",
+    img: "assets/hotel (10).jpeg",
+  },
+  {
+    id: 5,
+    title: "Drop Down Button",
+    img: "assets/hotel (7).jpeg",
+  },
+  {
+    id: 6,
+    title: "Hover Effects",
+    img: "assets/hotel (11).jpeg",
+  },
+];
+
+export const designPortfolio = [
+  {
+    id: 1,
+    title: "Online Resturant Ratings",
+    img: "assets/hotel (13).jpeg",
+  },
+  {
+    id: 2,
+    title: "Our Special Staff",
+    img: "assets/hotel (14).jpeg",
+  },
+  {
+    id: 3,
+    title: "Hover Effects",
+    img: "assets/hotel (15).jpeg",
+  },
+  {
+    id: 4,
+    title: "Our Gallery",
+    img: "assets/hotel (16).jpeg",
+  },
+  {
+    id: 5,
+    title: "Gallery Full View",
+    img: "assets/hotel (18).jpeg",
+  },
+  {
+    id: 6,
+    title: "Our Pricing",
+    img: "assets/hotel (19).jpeg",
+  },
+];
+
+export const contentPortfolio = [
+  {
+    id: 1,
+    title: "Pizza Hut Online",
+    img: "assets/general (2).jpeg",
+  },
+  {
+    id: 2,
+    title: "Playable Drum-Kit",
+    img: "assets/general (1).jpeg",
+  },
+  {
+    id: 3,
+    title: "Diece Playable Game",
+    img: "assets/general (3).jpeg",
+  },
+  {
+    id: 4,
+    title: "Education Policy Online",
+    img: "assets/edu (3).jpeg",
+  },
+  {
+    id: 5,
+    title: "Education Policy Online",
+    img: "assets/edu (2).jpeg",
+  },
+  {
+    id: 6,
+    title: "Education Policy Online",
+    img: "assets/edu (1).jpeg",
+  },
+];
   

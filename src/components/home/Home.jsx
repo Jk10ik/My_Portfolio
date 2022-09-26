@@ -11,20 +11,24 @@ export default function Intro() {
 
 
   return (
-    <div className='home' id='intro'>
+    <div className="home" id="intro">
       <div className="left">
         <div className="socials">
-          <a href="https://www.linkedin.com/in/junaid-khan-600b97225"><BsLinkedin /></a>
-          <a href="https://github.com/Jk10ik"><BsGithub /></a>
-          <a href="https://facebook.com"><BsFacebook /></a>
-          <a href="https://instagram.com/junaidk10ik"><FiInstagram /></a>
-
+          <a href="https://www.linkedin.com/in/junaid-khan-600b97225">
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/Jk10ik">
+            <BsGithub />
+          </a>
+          <a href="https://facebook.com">
+            <BsFacebook />
+          </a>
+          <a href="https://instagram.com/junaidk10ik">
+            <FiInstagram />
+          </a>
         </div>
-        <div className="img-bg">
-
-        </div>
-        <img src="assets/jkf1.png" className='img' alt="" />
-
+        <div className="img-bg"></div>
+        <img src="assets/jkf1.png" className="img" alt="" />
       </div>
       <div className="right">
         <div className="wrapper">
@@ -43,24 +47,25 @@ export default function Intro() {
           <p className="desc  mt-5">
             I design and develop services for customers of all sizes,
             specializing in creating stylish, modern websites, web services and
-            online stores by using all latest tools, frameworks and liabraries like
-            JavaScript, SASS, React-js,  Bootstrap,
-            Material UI <br /> and many more.
+            online stores by using all latest tools, frameworks and liabraries
+            like JavaScript, SASS, React-js, Bootstrap, Material UI <br /> and
+            many more.
             {/* <a href="">Scroll Down</a> */}
           </p>
           {/* <div className='scroll'><a href="#">Scroll Down</a></div> */}
-          <Button className='btn' href='#contact'>Let's Talk</Button>
-          <Button className='btn1' href='assets/Resume.png' download> Save Resume</Button>
+          <Button className="btn" href="#contact">
+            Let's Talk
+          </Button>
+          <Button className="btn1" href="assets/Resume1.png" download>
+            {" "}
+            Save Resume
+          </Button>
         </div>
 
         <a href="#footer">
           <img src="assets/down.png" alt="" />
         </a>
-
-
-
       </div>
-
     </div>
-  )
+  );
 }

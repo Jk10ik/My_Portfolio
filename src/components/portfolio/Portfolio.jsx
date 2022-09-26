@@ -18,23 +18,23 @@ export default function Portfolio() {
   const list = [
     {
       id: "featured",
-      title: "Featured"
+      title: "Bazar-App",
     },
     {
       id: "web",
-      title: "Web App"
+      title: "Tempo",
     },
     {
       id: "mobile",
-      title: "Mobile App"
+      title: "Hotel-App",
     },
     {
       id: "design",
-      title: "Design"
+      title: "Resturant",
     },
     {
       id: "content",
-      title: "Content"
+      title: "Mini-Projects",
     },
   ];
 
